@@ -194,15 +194,18 @@
 					C98081911C87679A0082EE69 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = 6B94GC7EG7;
+						LastSwiftMigration = 0800;
 					};
 					C98081A51C87679B0082EE69 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = 6B94GC7EG7;
+						LastSwiftMigration = 0800;
 						TestTargetID = C98081911C87679A0082EE69;
 					};
 					C98081B01C87679B0082EE69 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = 6B94GC7EG7;
+						LastSwiftMigration = 0800;
 						TestTargetID = C98081911C87679A0082EE69;
 					};
 				};
@@ -404,6 +407,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mKappDesign.Savings-Visualizer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -415,6 +419,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mKappDesign.Savings-Visualizer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -426,6 +431,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mKappDesign.Savings-VisualizerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Savings Visualizer.app/Savings Visualizer";
 			};
 			name = Debug;
@@ -438,6 +444,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mKappDesign.Savings-VisualizerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Savings Visualizer.app/Savings Visualizer";
 			};
 			name = Release;
@@ -449,6 +456,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mKappDesign.Savings-VisualizerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Savings Visualizer";
 				USES_XCTRUNNER = YES;
 			};
@@ -461,6 +469,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mKappDesign.Savings-VisualizerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Savings Visualizer";
 				USES_XCTRUNNER = YES;
 			};
@@ -485,6 +494,7 @@
 				C98081BC1C87679B0082EE69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C98081BD1C87679B0082EE69 /* Build configuration list for PBXNativeTarget "Savings VisualizerTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +503,7 @@
 				C98081BF1C87679B0082EE69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C98081C01C87679B0082EE69 /* Build configuration list for PBXNativeTarget "Savings VisualizerUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +512,7 @@
 				C98081C21C87679B0082EE69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
